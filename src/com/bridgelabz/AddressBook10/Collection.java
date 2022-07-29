@@ -12,7 +12,7 @@ public class Collection {
 	private int zip;
 	private long phoneNo;
 	private String email;
-	static ArrayList<AddressBook_UC5> contactBook = new ArrayList<>();
+	static ArrayList<AddressBook_UC6> contactBook = new ArrayList<>();
 	Scanner s = new Scanner(System.in);
 	public void readData() {
 	     int i ;
@@ -42,7 +42,7 @@ public class Collection {
 		 	 }
 		}
 		if(b== false) {
-			AddressBook_UC5 contact = new AddressBook_UC5(first , last , add , city , state , zip , phoneNo , email);
+			AddressBook_UC6 contact = new AddressBook_UC6(first , last , add , city , state , zip , phoneNo , email);
 	  		contactBook.add(contact);
 	  		System.out.println("\nContact added Successfully.");
 		}
